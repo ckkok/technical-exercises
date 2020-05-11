@@ -1,0 +1,16 @@
+{
+  "name": "microservice-architecture-exercise",
+  "version": "1.0.0",
+  "description": "A mock price and volume data server for a microservices architecture exercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Kok Chee Kean",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^1.7.2",
+    "express": "^4.17.1"
+  }
+}

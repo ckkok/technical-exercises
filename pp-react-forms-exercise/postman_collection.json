@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "1c62165b-45c6-4bf5-af3e-b77ee685a35a",
+		"name": "Maltem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Test Pair Exercise",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"firstName\": \"Bruce\",\n  \"lastName\": \"Wayne\",\n  \"dob\": \"1980-01-01\",\n  \"gender\": \"male\",\n  \"flavors\": {\n    \"chocolate\": true,\n    \"vanilla\": true,\n    \"strawberry\": false\n  }\n}"
+				},
+				"url": {
+					"raw": "https://live-pair-api.wekkit.now.sh/",
+					"protocol": "https",
+					"host": [
+						"live-pair-api",
+						"wekkit",
+						"now",
+						"sh"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
